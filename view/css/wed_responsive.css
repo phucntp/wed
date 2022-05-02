@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1300px){
+    .top-navigation .top_header{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    /* icon facebook, youtobe ...*/
+    .next-slide .icon{
+        display: none;
+    }
+
+    header nav .nav-content .content a {
+        text-align: center;
+        display: flex;
+    }
+}

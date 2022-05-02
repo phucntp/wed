@@ -1,0 +1,1941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/wed_responsive.css">
+    <script src="../../bootstrap/css/bootstrap.css"></script>
+    <script src="../../bootstrap/js/bootstrap.js"></script>
+    <script src="../../jquery/jquery-min.js"></script>
+    <script src="https://kit.fontawesome.com/c93a607241.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top-navigation">
+            <div class="container d-flex top_header">
+                <span><a href="#">Bản mobile</a></span>
+                <span><a href="#">Giới thiệu</a></span>
+                <span><a href="#">Sản phẩm đã xem</a></span>
+                <span><a href="#">Trung tâm bảo hành</a></span>
+                <span><a href="#">Hệ thống 99 siêuu thị</a></span>
+                <span><a href="#">Tuyển dụng</a></span>
+                <span><a href="#">Tra cứu đơn hàng</a></span>
+                <span><a id="login-modal" href="#">Đăng nhập</a></span>
+            </div>
+        </div>
+        <!-- logo and search box -->
+        <div class="heading">
+            <div class="container pb-4 pt-4 d-flex justify-content-between w-100 content">
+                <div class="logo">
+                    <img src="../../img/logo-text.png" alt="logo">
+                </div>
+
+                <div class="d-flex align-items-center box_search">
+                    <div class="w-100">
+                        <form action="#" class="w-100" method="post">
+                            <input class="w-75" type="text" id="kwd" name="kwd" placeholder="Hôm nay bạn cần tìm gì?" />
+                            <button type="submit" class="search top-navigation"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center text-white check">
+                    <div class="check_order">
+                        <a href="#" class="d-flex align-items-center">
+                            <i class="fa fa-truck text-white"></i>
+                            <span>Kiểm tra đơn hàng</span>
+                        </a>
+                    </div>
+                    <!--  -->
+                    <div class="cart">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <i class="fa fa-cart-arrow-down"></i>
+                            <i class="fa fa-caret-left icon"></i>
+                            <div class="text-white d-flex justify-content-center align-items-center">0</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--header nav hover -->
+        <nav class="d-flex justify-content-center">
+            <div class="container nav-content" id="myNavContent">
+                <div class="content d-flex">
+                    <a href="#" id="hover_phone">
+                        <span><i class="fa-solid fa-mobile-screen"></i></span>
+                        <span>ĐIỆN THOẠI</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_watch">
+                        <span><i class="fa-solid fa-clock"></i></span>
+                        <span>ĐỒNG HỒ</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_laptop">
+                        <span><i class="fa-solid fa-laptop"></i></span>
+                        <span>LAPTOP</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_tablet">
+                        <span><i class="fa-solid fa-tablet"></i></span>
+                        <span>TABLET</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_headPhone">
+                        <span><i class="fa-solid fa-headphones"></i></span>
+                        <span>ÂM THANH</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_smartHome">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <span>SMART HOME</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_accessory">
+                        <span><i class="fa-solid fa-charging-station"></i></span>
+                        <span>PHỤ KIỆN</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_playGame">
+                        <span><i class="fa-solid fa-gamepad"></i></span>
+                        <span>ĐỒ CHƠI CÔNG NGHỆ</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_mayTroi">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <span>MÁY TRÔI</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_repair">
+                        <span><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                        <span>SỬA CHỮA</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_sim">
+                        <span><i class="fa-solid fa-sim-card"></i></span>
+                        <span>SIM THẺ</span>
+                        <label></label>
+                    </a>
+                    <a href="#">
+                        <span><i class="fa-solid fa-newspaper"></i></span>
+                        <span>TIN TỨC</span>
+                        <label></label>
+                    </a>
+                    <a href="#" id="hover_flashSale">
+                        <span><i class="fa-solid fa-bolt-lightning"></i></span>
+                        <span>FLASH SALE</span>
+                        <label></label>
+                    </a>
+                </div>
+                <!-- hover phone -->
+                <div class="border border-1 hover_phone" id="hover_phone_id">
+                    <div class="d-flex p-4 w-100">
+                        <div class="hover_table w-100">
+                            <table class="w-100">
+                                <thead>
+                                    <th>HÃNG SẢN XUẤT</th>
+                                    <th></th>
+                                    <th></th>
+                                    <th>MỨC GIÁ</th>
+                                    <th>QUAN TÂM NHẤT</th>
+                                </thead>
+
+                                <tfoot>
+                                    <tr>
+                                        <td>Iphone</td>
+                                        <td>XOR</td>
+                                        <td>Samsung</td>
+                                        <td>Trên 100 triệu</td>
+                                        <td>Hôm nay</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Xiaomi</td>
+                                        <td>Reamle</td>
+                                        <td>Nokia</td>
+                                        <td>Dưới 100 triệu</td>
+                                        <td>Tuần này</td>
+                                    </tr>
+                                    <tr>
+                                        <td>OPPO</td>
+                                        <td>Blackberry</td>
+                                        <td>Vivo</td>
+                                        <td>Từ 2 đến 3 triệu</td>
+                                        <td>Tháng này</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Energizer</td>
+                                        <td>Masstel</td>
+                                        <td>Philips</td>
+                                        <td>Từ 3 đến 4 triệu</td>
+                                        <td>Tháng này</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Itel</td>
+                                        <td>Bphone</td>
+                                        <td>TECNO</td>
+                                        <td>Từ 6 đến 8 triệu</td>
+                                        <td>Năm nay</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Từ 15 đến 20 triệu</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>ĐIỆN THOẠI CAO CẤP</b></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Từ 20 đến 100 triệu</td>
+                                        <td></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="hover_img">
+                            <img class="w-100 h-100" src="../../img/GALAY A73 5G.png" alt="GALAY A73 5G">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- hover watch -->
+                <div class="border border-1 hover_phone" id="hover_watch_id">
+                    <div class="p-4">
+                        <table>
+                            <thead>
+                                <th>ĐỒNG HỒ</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <td>Apple Watch</td>
+                                    <td>Samsung</td>
+                                    <td>Xiaomin</td>
+                                    <td>Gramin</td>
+                                </tr>
+                                <tr>
+                                    <td>Tic Watch</td>
+                                    <td>Amazfic</td>
+                                    <td>Đồng hồ trẻ em</td>
+                                    <td>Huawei</td>
+                                </tr>
+                                <tr>
+                                    <td>Masstel</td>
+                                    <td>OPPO</td>
+                                    <td>realme</td>
+                                    <td>SoundPEATS</td>
+                                </tr>
+                                <tr>
+                                    <td>Top Đồng hồ thông minh</td>
+                                    <td>Top vòng đeo tay</td>
+                                    <td>fitbit</td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <!-- hover laptop -->
+                <div class="border border-1 hover_phone" id="hover_laptop_id">
+                    <div class="row p-4">
+                        <div class="col-4">
+                            <table>
+                                <thead class="w-100">
+                                    <th class="w-25">HÃNG SẢN XUẤT</th>
+                                    <th class="w-25"></th>
+                                    <th class="w-25"></th>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <td>Mac</td>
+                                        <td>Asus</td>
+                                        <td>Dell</td>
+                                    </tr>
+                                    <tr>
+                                        <td>GIGABYTE</td>
+                                        <td>HP</td>
+                                        <td>Huawei</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lennovo</td>
+                                        <td>Microsoft</td>
+                                        <td>MSI</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+
+                        <div class="col-8">
+                            <table class="w-100">
+                                <thead class="w-100">
+                                    <th class="w-50">PHÂN LOẠI SẢN PHẨM</th>
+                                    <th class="w-50">MỨC GIÁ</th>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <td>Cao cấp - Sang trọng</td>
+                                        <td>Trên 20 triệu</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Đồ họa - Kĩ thuật</td>
+                                        <td>Từ 12 đến 15 triệu</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Học tập - Văn phòng</td>
+                                        <td>Từ 15 đến 20 triệu</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Laptop Gaming</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mỏng nhẹ</td>
+                                        <td></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- hover tablet -->
+                <div class="border border-1 hover_phone" id="hover_tablet_id">
+                    <div class="p-3">
+                        <table class="w-75">
+                            <thead>
+                                <th class="w-25 pb-2">Hãng sản xuất</th>
+                                <th class="w-25"></th>
+                                <th class="w-25"></th>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <td>Lennovo</td>
+                                    <td>Microsoft</td>
+                                    <td>Nokia</td>
+                                </tr>
+                                <tr>
+                                    <td>Ipad</td>
+                                    <td>Sámung</td>
+                                    <td>Xiaomi</td>
+                                </tr>
+                                <tr>
+                                    <td>Huawei</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <!-- hover headPhone -->
+                <div class="border border-1 hover_phone" id="hover_headPhone_id">
+                    <div class="w-75 p-3">
+                        <table class="w-100">
+                            <thead>
+                                <th>LOA</th>
+                                <th></th>
+                                <th>TAI NGHE</th>
+                                <th></th>
+                                <th></th>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <td>Energizer</td>
+                                    <td>Huawei</td>
+                                    <td>Sony</td>
+                                    <td>JBL</td>
+                                    <td>Soundpeats</td>
+                                </tr>
+                                <tr>
+                                    <td>LG</td>
+                                    <td>Loa mic cầm tay</td>
+                                    <td>Akg</td>
+                                    <td>Apple AirPods</td>
+                                    <td>Beats</td>
+                                </tr>
+                                <tr>
+                                    <td>Marshall</td>
+                                    <td>MONSTER</td>
+                                    <td>Energizer</td>
+                                    <td>Laylou</td>
+                                    <td>Sony</td>
+                                </tr>
+                                <tr>
+                                    <td>SoundPEATS</td>
+                                    <td>Teakin</td>
+                                    <td>iWalk</td>
+                                    <td>LG</td>
+                                    <td>MONSTER</td>
+                                </tr>
+                                <tr>
+                                    <td>JBL</td>
+                                    <td>Harman Kardon</td>
+                                    <td>Motorola</td>
+                                    <td>Nokia</td>
+                                    <td>OPPO</td>
+                                </tr>
+                                <tr>
+                                    <td>Samsung</td>
+                                    <td>Sony</td>
+                                    <td>PHILIPS</td>
+                                    <td>Pioneer</td>
+                                    <td>Pisen</td>
+                                </tr>
+                                <tr>
+                                    <td>Apple</td>
+                                    <td>Divoom</td>
+                                    <td>Plantronios</td>
+                                    <td>realme</td>
+                                    <td>Samsung</td>
+                                </tr>
+                                <tr>
+                                    <td>Anker</td>
+                                    <td></td>
+                                    <td>Sennheiser</td>
+                                    <td>Xiaomi</td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <!-- hover smartHome -->
+                <div class="border border-1 hover_phone" id="hover_smartHome_id">
+                    <div class="p-3">
+                        <p><strong>GIA DỤNG THÔNG MINH</strong></p>
+                        <p>Máy lọc không khí</p>
+                        <p>Robot hút bụi</p>
+                        <p>Phụ kiện gia dụng</p>
+                        <p>FPT Play box</p>
+                        <p>Cân thông minh</p>
+                        <p>DTH/Tivi box K+</p>
+                        <p>Khuyến mại đồ gia dụng Xiaomi</p>
+                        <p>Máy chiếu, ổ cắm điện</p>
+                        <p>Thiết vị định vị thông minh</p>
+                        <p>Camera thông minh</p>
+                    </div>
+                </div>
+                <!-- phụ kiện -->
+                <div class="border border-1 hover_phone" id="hover_accessory_id">
+                    <div class="row p-3">
+                        <div class="col-3">
+                            <p><strong>XẢ TỒN PHỤ KIỆN - GIÁ SỐC</strong></p>
+                            <p><strong>PHỤ KIỆN APPLE</strong></p>
+                            <p><strong>PHỤ KIỆN MÁY TÍNH</strong></p>
+                            <p><strong>SẠC DỰ PHÒNG</strong></p>
+                            <P><strong>CỦ SẠC, MÁY TÍNH</strong></P>
+                            <P><strong>GÓI BẢO HÀNH VIPCARE</strong></P>
+                        </div>
+                        <div class="col-2">
+                            <p><strong>ROBOT HÚT BỤI</strong></p>
+                            <p><strong>MÁY LỌC KHÔNG KHÍ</strong></p>
+                            <p><strong>TAY CẦM CHỐNG RUNG</strong></p>
+                            <p><strong>CAMERA HÀNH TRÌNH</strong></p>
+                        </div>
+                        <div class="col-2">
+                            <p><strong>TÚI XÁCH</strong></p>
+                            <p><strong>LOA</strong></p>
+                            <p><strong>BÚT CẢM ỨNG</strong></p>
+                            <p><strong>TAI NGHE</strong></p>
+                            <p><strong>PHỤ KIỆN HỌC SINH</strong></p>
+                        </div>
+                        <div class="col-2">
+                            <p><strong>DÂY ĐEO ĐỒNG HỒ</strong></p>
+                            <p><strong>MIẾNG DÁN MÀN HÌNH</strong></p>
+                            <p><strong>CAMERA AN NINH</strong></p>
+                            <p><strong>THIẾT BỊ MẠNG</strong></p>
+                        </div>
+                        <div class="col-3">
+                            <p><strong>THẺ NHỚ - USB</strong></p>
+                            <p><strong>BAO DA - ỐP LƯNG</strong></p>
+                            <p><strong>THAY PIN, MÀN HÌNH CHÍNH HÃNG</strong></p>
+                            <p>Màn hình Iphone</p>
+                            <p>pin Iphone</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Đồ chơi công nghệ -->
+                <div class="border border-1 hover_phone" id="hover_playGame_id">
+                    <div class="p-3">
+                        <table>
+                            <thead>
+                                <th class="pb-3">ĐỒ CHƠI CÔNG NGHỆ</th>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <td class="p-1">Quạt để bàn</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-1">Dây đo nhịp tim</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-1">Tay cầm chống rung</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-1">Camera hành trình</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <!-- máy trôi -->
+                <div class="border border-1 hover_phone" id="hover_mayTroi_id">
+                    <div class="p-3">
+                        <table class="w-100">
+                            <thead>
+                                <th class="w-25 pb-3">HÀNG CŨ GIÁ RẺ</th>
+                                <th class="w-25"></th>
+                                <th class="w-25"></th>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <td>Điện thoại thông minh</td>
+                                    <td>Đồng hồ thông minh</td>
+                                    <td>Máy tính bảng</td>
+                                </tr>
+                                <tr>
+                                    <td>Laptop</td>
+                                    <td>Loa</td>
+                                    <td>Tai nghe</td>
+                                </tr>
+                                <tr>
+                                    <td>Camera</td>
+                                    <td>Củ sạc</td>
+                                    <td>Dây cáp</td>
+                                </tr>
+                                <tr>
+                                    <td>Máy lọc không khí</td>
+                                    <td>Phụ kiện</td>
+                                    <td>Sạc dự phòng</td>
+                                </tr>
+                                <tr>
+                                    <td>Tay cầm chống rung</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <!-- sửa chữa -->
+                <div class="border border-1 hover_phone" id="hover_repair_id">
+                    <div class="p-3">
+                        <div>
+                            <table class="w-100">
+                                <thead>
+                                    <th class="pb-3">ANDROID</th>
+                                    <th></th>
+                                    <th>IPHONE</th>
+                                    <th></th>
+                                    <th>APPLE IPHONE</th>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <td>Pin</td>
+                                        <td>Camera</td>
+                                        <td>Camera trước</td>
+                                        <td>Loa trong - Loa ngoài</td>
+                                        <td>Pin</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Màn hình</td>
+                                        <td>Vỏ và mặt lưng</td>
+                                        <td>Vỏ - kính lưng</td>
+                                        <td>Camera sau</td>
+                                        <td>Cảm ứng</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Màn hình</td>
+                                        <td>Các loại cáp</td>
+                                        <td>Màn hình</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- sim thẻ -->
+                <div class="border border-1 hover_phone" id="hover_sim_id">
+                    <div class="p-3">
+                        <p><strong>Sản phẩm hót</strong></p>
+                    </div>
+                </div>
+                <!-- tin tức -->
+                <div>
+
+                </div>
+                <!-- Ưu đãi hót -->
+                <div class="border border-1 hover_phone" id="hover_flashSale_id">
+                    <div class="p-3">
+                        <p><strong>ƯU ĐÃI HÓT</strong></p>
+                        <p>Khuyến mãi apple</p>
+                        <p>Khuyến mãi đồng hồ</p>
+                        <p>Khuyến mãi JBL, Harman Kardon</p>
+                        <p>Khuyễn mãi laptop</p>
+                        <p>Khuyến mãi LG</p>
+                        <p>Khuyến mãi phụ kiện</p>
+                        <p>Khuyến mãi Sony</p>
+                        <p>Khuyến mại thiết bị đeo Xiaomi</p>
+                        <p>Sản phẩm độc quyền</p>
+                        <p>Sản phẩm mới apple</p>
+                        <p>Top 5 tai nghe Bluetooth</p>
+                        <p>Khuyến mãi Samsung</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- slide show -->
+    <section class="next-slide">
+        <div class="container mt-4 slideshow">
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides">
+                    <img class="w-100" src="../../img/top-slider/macbook-air-m1-02.jpg" alt="macbook-air-m1-02">
+                </div>
+
+                <div class="mySlides">
+                    <img class="w-100" src="../../img/top-slider/banner-web.jpg" alt="banner-web">
+                </div>
+
+                <div class="mySlides">
+                    <img class="w-100" src="../../img/top-slider/he-toi-nokia-moi-1200x382.jpg"
+                        alt="he-toi-nokia-moi-1200x382">
+                </div>
+
+                <div class="mySlides">
+                    <img class="w-100" src="../../img/top-slider/note-10-pro-web.png" alt="note-10-pro-web">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev " onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <!-- The dots/circles -->
+            <div class="d-flex justify-content-center align-items-center content-dot w-100 mt-3">
+                <div class="dot border border-1">
+                    <span>Macbook Air giá tốt</span>
+                </div>
+                <div class="dot border border-1">
+                    <span>Mở bán Nokia C21</span>
+                </div>
+                <div class="dot border border-1">
+                    <span>Tuần lễ Lennovo - Siêu sale bùng nổ</span>
+                </div>
+                <div class="dot border border-1">
+                    <span>Tai nghe Apple AirPods - Giá sốc</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="icon">
+            <div class="item">
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="youtobe"><i class="fa fa-youtube"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- galaxy a73 5d -->
+    <section>
+        <div class="container mt-5">
+            <div class="quick-sales mt-4 mb-5 d-flex">
+                <div class="item ">
+                    <a href="#">
+                        <img src="../../img/chuyen-trang-samsung2.png" title="Chuyên trang Samsung"
+                            alt="chuyen-trang-samsung2">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="../../img/sanphamhot-reno7.jpg" title="OPPO reno 7" alt="sanphamhot-reno7">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="../../img/hotsale-samsung-a33-a53-5g-1200x628.jpg" title="GALAXY A 2022"
+                            alt="hotsale-samsung-a33-a53-5g-1200x628">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="../../img/apple.jpg" title="Sản phẩm mới apple" alt="apple">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- flash sale online -->
+    <section>
+        <div class="container">
+            <div class="flash-sale d-flex align-items-center">
+                <div class="mb-3 text">F<i class="fa-solid fa-bolt-lightning"></i>ASH SALE ONLINE</div>
+                <div class="mb-3 hour">
+                    <strong id="first-hour"></strong>
+                    <strong id="last-hour"></strong>
+                    <span>:</span>
+                    <strong id="first-minutes"></strong>
+                    <strong id="last-minutes"></strong>
+                    <span>:</span>
+                    <strong id="first-seconds"></strong>
+                    <strong id="last-seconds"></strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Samsung Galaxy A52s -->
+    <section>
+        <div class="container">
+            <a href="#">
+                <img class="w-100" src="../../img/Samsung Galaxy A52s.png" alt="Samsung Galaxy A52s.png">
+            </a>
+        </div>
+    </section>
+
+    <!-- khuyến mãi -->
+    <section>
+        <div class="container pb-5">
+            <div class="mt-3 mb-3 box-home-text">
+                <div class="item">
+                    <a class="text-white" href="#">
+                        APPLE AUTHORISED RESELLER
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex box-home">
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <img class="giasoc" src="../../img/gia-soc.png" alt="gia-soc">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/image-removebg-preview-5.png" alt="image-removebg-preview-5">
+                        </a>
+                        <div class="flash">
+                            <i class="fa-solid fa-bolt"></i>giảm 8,000,000 <u>đ</u>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple IPhone 11 - 128GB - chính hãng VN/A</strong>
+                        <div>
+                            <strong>13,190,000 <u>đ</u></strong>
+                            <del>21,990,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Giảm thêm 250.000 <u>đ</u> khi thanh toán q... <strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/image-removebg-preview.png" alt="image-removebg-preview">
+                        </a>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple iPad Pro M1 12.9" -(2021)- Wifi 128GB - Chính hãng Apple Việt Nam </strong>
+                        <div><strong>24,490,000 <u>đ</u></strong></div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Tặng sim data mobifone hera 5G (2.5... <strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <img class="giasoc" src="../../img/gia-soc.png" alt="gia-soc">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/macmoi256.png" alt="macmoi256">
+                        </a>
+                        <div class="flash">
+                            <i class="fa-solid fa-bolt"></i>giảm 5,000,000 <u>đ</u>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Macbook Air 13" 2020 - M1 256GB - Chính hãng Apple Việt Nam</strong>
+                        <div>
+                            <strong>22,990,000 <u>đ</u></strong>
+                            <del>22,990,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Giảm 300,000<u>đ</u> khi thanh toán qua VN... <strong>VÀ 2 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/image-removebg-preview-4.png"
+                                alt="image-removebg-preview-4.png">
+                        </a>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple IPhone 13 Pro Max - Chính hãng VN/A</strong>
+                        <div><strong>28,950,000 <u>đ</u></strong></div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Giảm 300,000<u>đ</u> khi thanh toán qua VN... <strong>VÀ 2 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item pb-2 border border-1">
+                    <div>
+                        <img src="../../img/box-home/apple.png" alt="apple">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/image-removebg-preview-4.png"
+                                alt="image-removebg-preview-4.png">
+                        </a>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple IPhone 13 Pro Max 256GB - Chính hãng VN/A</strong>
+                        <div><strong>28,950,000 <u>đ</u></strong></div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Giảm 300,000<u>đ</u> khi thanh toán qua VN... <strong>VÀ 2 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex box-home mt-2">
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <img class="giasoc" src="../../img/gia-soc.png" alt="gia-soc">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/image-removebg-preview-5.png" alt="image-removebg-preview-5">
+                        </a>
+                        <div class="flash">
+                            <i class="fa-solid fa-bolt"></i>giảm 8,300,000 <u>đ</u>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple IPhone 11 - 64GB - chính hãng VN/A</strong>
+                        <div>
+                            <span><strong>11,690,000 <u>đ</u></strong></span>
+                            <del>29,990,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Giảm thêm 250.000 <u>đ</u> khi thanh toán q... <strong>VÀ 5 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <img class="giasoc" src="../../img/gia-soc.png" alt="gia-soc">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/image-removebg-preview-2.png" alt="image-removebg-preview-2">
+                        </a>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple IPhone 13 - chính hãng <br> VN/A</strong>
+                        <div>
+                            <strong>19,900,000 <u>đ</u></strong>
+                        </div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Giảm thêm 300.000 <u>đ</u> khi thanh toán q... <strong>VÀ 5 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/image-removebg-preview-3.png" alt="image-removebg-preview-5">
+                        </a>
+                        <div class="flash">
+                            <i class="fa-solid fa-bolt"></i>giảm 3,740,000 <u>đ</u>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple IPhone 13 Pro - chính hãng <br> VN/A</strong>
+                        <div>
+                            <strong>26,750,000 <u>đ</u></strong>
+                            <del>30,490,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Giảm thêm 250.000 <u>đ</u> khi thanh toán q... <strong>VÀ 5 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <img class="giasoc" src="../../img/gia-soc.png" alt="gia-soc">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/Tai nghe Apple AirPods Pro.png"
+                                alt="Tai nghe Apple AirPods Pro.png">
+                        </a>
+                        <div class="flash">
+                            <i class="fa-solid fa-bolt"></i>giảm 8,300,000 <u>đ</u>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple AirPods Pro - chính hãng Apple (MLWK3ZP/A, magsafe)</strong>
+                        <div>
+                            <span><strong>4,590,000 <u>đ</u></strong></span>
+                            <del>7,990,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Thanh toán qua VNPAY - giảm 50.000... <u>đ</u>
+                        </label>
+                    </div>
+                </div>
+                <div class="item pb-2 border border-1">
+                    <div class="img mt-1">
+                        <img class="img_apple" src="../../img/box-home/apple.png" alt="apple">
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="../../img/box-home/image-removebg-preview-28.png" alt="image-removebg-preview-5">
+                        </a>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Apple Watch Series 7 GPS, 41 mm - Viền nhôm dây cao su - chính hãng VN/A</strong>
+                        <div>
+                            <strong>9,590,000 <u>đ</u></strong>
+                        </div>
+                    </div>
+                    <div class="note mt-4">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Thanh toán qua VNPAY - giảm 50.000... <u>đ</u>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hotsale -->
+    <section>
+        <div class="container mb-3">
+            <img class="w-100" src="../../img/hotsale-samsung-a33-a53-5g-1200x200.jpg"
+                alt="hotsale-samsung-a33-a53-5g-1200x200">
+        </div>
+    </section>
+
+    <!--  -->
+    <section>
+        <div class="container mb-4">
+            <div class="like-text mb-3">
+                <div class="item">
+                    <a href="#" class="text-black">
+                        CÓ THỂ BẠN SẼ THÍCH
+                    </a>
+                </div>
+            </div>
+            <div class="like d-flex">
+                <div class="item border border-1">
+                    <div class="d-flex justify-content-center">
+                        <img src="../../img/like/image-removebg-preview-11.png" alt="image-removebg-preview-11">
+                    </div>
+                    <div class="mt-3 mb-3 text-center money">
+                        <strong>Apple IPhone 13 - chính <br> hãng VN/A</strong>
+                        <div><strong>19,000,000 <u>đ</u></strong></div>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="d-flex justify-content-center">
+                        <img src="../../img/like/image-removebg-preview-2.png" alt="image-removebg-preview-2">
+                    </div>
+                    <div class="mt-3 mb-3 text-center money">
+                        <strong>Apple Watch Series 6 GPS, <br> 40mm Aluminum case wi...</strong>
+                        <div><strong>8,490,000 <u>đ</u></strong><del>12,990,000 <u>đ</u></del></div>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="d-flex justify-content-center">
+                        <img src="../../img/like/den-f.png" alt="den-f">
+                    </div>
+                    <div class="mt-3 mb-3 text-center money">
+                        <strong>Samsung galaxy Z fold 3 5G <br> - 256 GB - Chính hãng</strong>
+                        <div><strong>36,190,000 <u>đ</u></strong><del>41,990,000 <u>đ</u></del></div>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="d-flex justify-content-center">
+                        <img src="../../img/like/11t-3.png" alt="11t-3">
+                    </div>
+                    <div class="mt-3 mb-3 text-center money">
+                        <strong>Xiaomi 11T 5G -<br> 8GB/128GB - Chính hãng...</strong>
+                        <div><strong>9,290,000 <u>đ</u></strong><del>10,990,000 <u>đ</u></del></div>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="mt-3 mb-3 text-center money">
+                        <img src="../../img/like/image-removebg-preview-7.png" alt="image-removebg-preview-7">
+                    </div>
+                    <div class="mb-3 text-center money">
+                        <strong>POCO M4 Pro 5G <br> 4GB/64GB - Chính hãng</strong>
+                        <div><strong>4,490,000 <u>đ</u></strong><del>5,490,000 <u>đ</u></del></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Điện thoại nổi bật -->
+    <section>
+        <div class="container mb-5">
+            <div class="mt-2 mb-2 box-home-text">
+                <div class="item">
+                    <a class="text-white" href="#">
+                        ĐIỆN THOẠI NỔI BẬT
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex mt-3 phone_context">
+                <div class="item border border-1">
+                    <div class="img d-flex flex-column justify-content-center mt-4">
+                        <div class="d-flex justify-content-center">
+                            <img src="../../img/phone_noibat/image-removebg-preview-3.png"
+                                alt="image-removebg-preview-3">
+                        </div>
+                        <div class="sale d-flex flex-column justify-content-center align-items-center">
+                            <span class="text-white">Hot sale giá sốc</span>
+                            <span>Giá chỉ còn 5.990.00đ</span>
+                            <span>Giảm tới 300K qua VNPAY</span>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Xiaomi Redmi Note 10 Pro <br> 8GB/128GB - Chính hãng</strong>
+                        <div>
+                            <strong>5,990,000 <u>đ</u></strong>
+                            <del>7,490,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-2 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Trúng thưởng lên tới 100 triệu đồng...<strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="img mt-4 d-flex justify-content-center flex-column align-items-center">
+                        <img src="../../img/phone_noibat/k16yellowzhengmianfront.png" alt="k16yellowzhengmianfront">
+                        <div class="flash">
+                            <i class="fa-solid fa-bolt"></i>giảm 1,000,000 <u>đ</u>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>POCO M4 Pro 5G 4GB/64GB<br> - Chính hãng</strong>
+                        <div>
+                            <strong>4,490,000 <u>đ</u></strong>
+                            <del>5,490,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-2 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Trúng thưởng lên tới 100 triệu đồng...<strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="img mt-4 d-flex flex-column align-items-center justify-content-center">
+                        <img class="giasoc" src="../../img/gia-soc.png" alt="gia-soc">
+                        <img src="../../img/phone_noibat/image-removebg-preview-19.png" alt="image-removebg-preview-19">
+                        <div class="sale d-flex flex-column justify-content-center align-items-center">
+                            <span class="text-white">Hotsale giá sốc từ 25/04-03/05</span>
+                            <span>Giá chỉ còn 7.490.00đ</span>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Xiaomi 11 Lite 5G NE 6GB/128GB<br> - Chính hãng DGW</strong>
+                        <div>
+                            <strong>7,490,000 <u>đ</u></strong>
+                            <del>8,990,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-2 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Trúng thưởng lên tới 100 triệu đồng...<strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="img mt-4 d-flex justify-content-center flex-column align-items-center">
+                        <img src="../../img/phone_noibat/image-removebg-preview-8_637829491635899746.png"
+                            alt="image-removebg-preview-8_637829491635899746">
+                        <div class="flash">
+                            <i class="fa-solid fa-bolt"></i>giảm 1,000,000 <u>đ</u>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Tecno Spark 8C 4GB/64GB - Chính <br> hãng</strong>
+                        <div>
+                            <strong>2,590,000 <u>đ</u></strong>
+                            <del>3,590,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-2 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Tặng 2 sim data mobifone Hera 5G (2.5...<strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="img d-flex flex-column justify-content-center mt-4">
+                        <div class="d-flex justify-content-center">
+                            <img src="../../img/phone_noibat/image-removebg-preview-7.png"
+                                alt="image-removebg-preview-7">
+                        </div>
+                        <div class="sale d-flex flex-column justify-content-center align-items-center">
+                            <span class="text-white">Hotsale giá sốc từ 28-30/04</span>
+                            <span>Giá cuối chỉ còn 7.990.00đ</span>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>OPPO ren 7 - Chính hãng</strong>
+                        <div>
+                            <strong>7,990,000 <u>đ</u></strong>
+                        </div>
+                    </div>
+                    <div class="note mt-4 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Trúng thưởng lên tới 100 triệu đồng...<strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex mt-3 phone_context">
+                <div class="item border border-1">
+                    <div class="img d-flex flex-column justify-content-center mt-4">
+                        <div class="d-flex justify-content-center">
+                            <img src="../../img/phone_noibat/redmi-10c-9.png" alt="redmi-10c-9">
+                        </div>
+                        <div class="sale2 text-center">
+                            <span class="text-white text-center">Hotsale giá sốc từ 29/4-3/5 chi tiết liên <br> hệ
+                                1900.1091</span>
+                            <span>Giảm tới 300K <br> qua VNPAY</span>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Xiaomi Redmi 10C 4GB/128GB<br>Chính hãng</strong>
+                        <div>
+                            <strong>3,890,000 <u>đ</u></strong>
+                            <del>3,890,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-2 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Tặng phiếu mua hàng 400.000đ <strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="img d-flex flex-column justify-content-center mt-4">
+                        <div class="d-flex justify-content-center">
+                            <img src="../../img/phone_noibat/image-removebg-preview-14.png"
+                                alt="image-removebg-preview-14">
+                        </div>
+                        <div class="sale d-flex flex-column justify-content-center align-items-center">
+                            <span class="text-white">Hotsale giá sốc từ 29/04-04/05</span>
+                            <span>Giá chỉ còn 8.590.00đ</span>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Samsung galaxy A53 - Chính hãng</strong>
+                        <div>
+                            <strong>9,090,000 <u>đ</u></strong>
+                            <del>7,490,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-4 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Tặng 2 sim data mobifone Hera 5G (2.5...<strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="img d-flex flex-column justify-content-center mt-4">
+                        <div class="d-flex justify-content-center">
+                            <img src="../../img/phone_noibat/a23.png" alt="image-removebg-preview-3">
+                        </div>
+                        <div class="sale d-flex flex-column justify-content-center align-items-center">
+                            <span class="text-white">Hotsale giá sốc từ 29/04-04/05</span>
+                            <span>Giá chỉ còn 4.990.00đ</span>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Samsung Galaxy A23 8GB/128GB - <br> Chính hãng</strong>
+                        <div>
+                            <strong>5,190,000 <u>đ</u></strong>
+                        </div>
+                    </div>
+                    <div class="note mt-2 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Trúng thưởng lên tới 100 triệu đồng...<strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="img d-flex flex-column justify-content-center mt-4">
+                        <div class="d-flex justify-content-center">
+                            <img src="../../img/phone_noibat/7z.png" alt="7z">
+                        </div>
+                        <div class="sale d-flex flex-column justify-content-center align-items-center">
+                            <span class="text-white">Hotsale giá sốc từ 28-30/04</span>
+                            <span>Chỉ còn 8.590.00đ</span>
+                            <span>Khi mua kèm gói cước MBF</span>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>OPPO Reno7 Z 5G - Chính hãng</strong>
+                        <div>
+                            <strong>5,990,000 <u>đ</u></strong>
+                            <del>7,490,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-4 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Giảm 20% (Trên giá NY) tai nghe blu...<strong>VÀ 6 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="item border border-1">
+                    <div class="img d-flex flex-column justify-content-center mt-4">
+                        <div class="d-flex justify-content-center">
+                            <img src="../../img/phone_noibat/image-removebg-preview-3.png"
+                                alt="image-removebg-preview-3">
+                        </div>
+                        <div class="sale d-flex flex-column justify-content-center align-items-center">
+                            <span class="text-white">Hotsale giá sốc 29/04-04/05</span>
+                            <span>Giá chỉ còn 4.050.00đ</span>
+                        </div>
+                    </div>
+                    <div class="text-center money mt-3">
+                        <strong>Samsung Galaxy A13 8GB/128GB - <br> Chính hãng</strong>
+                        <div>
+                            <strong>4,250,000 <u>đ</u></strong>
+                            <del>4,690,000 <u>đ</u></del>
+                        </div>
+                    </div>
+                    <div class="note mt-2 mb-3">
+                        <label
+                            title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                            <span>KM</span>
+                            Tặng 2 sim data mobifone Hera 5G (2.5...<strong>VÀ 4 KM KHÁC</strong>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- đồng hồ thông minh -->
+    <section>
+        <div class="container mb-5">
+            <div class="mt-2 mb-2 box-home-text">
+                <div class="item">
+                    <a class="text-white" href="#">
+                        ĐỒNG HỒ THÔNG MINH
+                    </a>
+                </div>
+            </div>
+            <div class="mt-3 border border-1 watch_context">
+                <div class="content d-flex">
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/watch-4-40mm-10.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 4 40mm LTE<br>- (R865) - Chính hãng</strong>
+                            <div>
+                                <strong>4,990,000 <u>đ</u></strong>
+                                <del>6,990,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Giảm 15% trên giá NY khi mua Watch...<strong>VÀ 2 KM KHÁC</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/r850.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 41mm LTE<br>- (R850) - Chính hãng</strong>
+                            <div>
+                                <strong>5,890,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/Garmin Vivoactive 4.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/venu-sq.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/r840-222.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/watch-4-40mm-10.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 4 40mm LTE<br>- (R865) - Chính hãng</strong>
+                            <div>
+                                <strong>4,990,000 <u>đ</u></strong>
+                                <del>6,990,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Giảm 15% trên giá NY khi mua Watch...<strong>VÀ 2 KM KHÁC</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/r850.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 41mm LTE<br>- (R850) - Chính hãng</strong>
+                            <div>
+                                <strong>5,890,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/Garmin Vivoactive 4.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/venu-sq.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/r840-222.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/watch-4-40mm-10.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 4 40mm LTE<br>- (R865) - Chính hãng</strong>
+                            <div>
+                                <strong>4,990,000 <u>đ</u></strong>
+                                <del>6,990,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Giảm 15% trên giá NY khi mua Watch...<strong>VÀ 2 KM KHÁC</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/r850.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 41mm LTE<br>- (R850) - Chính hãng</strong>
+                            <div>
+                                <strong>5,890,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/Garmin Vivoactive 4.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/venu-sq.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item_watch">
+                        <div class="img d-flex flex-column justify-content-center mt-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/watch/r840-222.png" alt="image-removebg-preview-3">
+                            </div>
+                        </div>
+                        <div class="text-center money mt-3">
+                            <strong>Samsung Galaxy watch 3 45mm<br>- (R840) - Chính hãng</strong>
+                            <div>
+                                <strong>5,590,000 <u>đ</u></strong>
+                                <del>7,490,000 <u>đ</u></del>
+                            </div>
+                        </div>
+                        <div class="note mt-2 mb-3">
+                            <label
+                                title="Giảm thêm 250.000đ khi thanh toán qua VNPAY (từ ngày 18/04 - 30/04 - số lượng có hạn)">
+                                <span>KM</span>
+                                Thanh toán qua VNPAY Giảm 50.000đ
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button class="left border border-1" onclick="left()"><i
+                        class="fa-solid fa-circle-arrow-left"></i></button>
+                <button class="right border border-1" onclick="right()"><i
+                        class="fa-solid fa-circle-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- phụ kiện -->
+    <section>
+        <div class="container mb-5">
+            <div class="mt-2 mb-2 box-home-text">
+                <div class="item">
+                    <a class="text-white" href="#">
+                        Phụ kiện
+                    </a>
+                </div>
+            </div>
+            <div class="mt-3 accessory">
+                <ul class="d-flex">
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-2.png" alt=""></span>
+                            <label>Thẻ nhớ - USB</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-15.png" alt=""></span>
+                            <label>Tai nghe</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-10.png" alt=""></span>
+                            <label>Sạc dự phòng</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-1.png" alt=""></span>
+                            <label>Quạt mini</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-14.png" alt=""></span>
+                            <label>Loa</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-xanh-2.png" alt=""></span>
+                            <label>Dây đeo đồng hồ, Airtag</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-9.png" alt=""></span>
+                            <label>Củ sạc, dây cáp</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-12.png" alt=""></span>
+                            <label>Camera an ninh</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-11.png" alt=""></span>
+                            <label>Thiết bị mạng</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-3.png" alt=""></span>
+                            <label>Apple</label>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="d-flex">
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-2.png" alt=""></span>
+                            <label>Thẻ nhớ - USB</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-15.png" alt=""></span>
+                            <label>Tai nghe</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-10.png" alt=""></span>
+                            <label>Sạc dự phòng</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-1.png" alt=""></span>
+                            <label>Quạt mini</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-14.png" alt=""></span>
+                            <label>Loa</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-xanh-2.png" alt=""></span>
+                            <label>Dây đeo đồng hồ, Airtag</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-9.png" alt=""></span>
+                            <label>Củ sạc, dây cáp</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-12.png" alt=""></span>
+                            <label>Camera an ninh</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-11.png" alt=""></span>
+                            <label>Thiết bị mạng</label>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><img src="../../img/phukien/icon-moi-3.png" alt=""></span>
+                            <label>Apple</label>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tin công nghệ -->
+    <section>
+        <div class="container new mb-5">
+            <div class="mt-2 header mb-2">
+                <h4>
+                    <a class="text-white" href="#">
+                        TIN CÔNG NGHỆ
+                    </a>
+                </h4>
+            </div>
+            <div class="technology">
+                <div class="d-flex">
+                    <div class="border border-1 item">
+                        <div class="d-flex">
+                            <img class="w-25" src="../../img/phukien/iPhone-11-218x150.jpg" alt="">
+                            <strong>Tính năng nào được người dùng quan <br> tâm nhất trên smartphone</strong>
+                        </div>
+                    </div>
+                    <div class="border border-1 item">
+                        <div class="d-flex">
+                            <img class="w-25"
+                                src="../../img/phukien/nay-da-xuat-hien-iphone-13-made-in-brazil-2-218x150.jpg" alt="">
+                            <strong>Nay đã xuất hiện Iphone 13 "made in <br> Brazil"</strong>
+                        </div>
+                    </div>
+                    <div class="border border-1 item">
+                        <div class="d-flex">
+                            <img class="w-25" src="../../img/phukien/Untitled-design-9-218x150.jpg" alt="">
+                            <strong>CEO google "lỡ miệng" tiết lộ về Pixel 6a</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- core value -->
+    <section>
+        <div class="container corevalue mb-5">
+            <div class="content mb-5 d-flex">
+                <div class="d-flex item justify-content-center">
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <div class="text">
+                        <span>Sản phẩm</span>
+                        <strong>CHÍNH HÃNG</strong>
+                    </div>
+                </div>
+                <div class="d-flex item justify-content-center">
+                    <span><i class="fa-solid fa-dolly"></i></span>
+                    <div class="text">
+                        <span>Miễn phí vận chuyển</span>
+                        <strong>TOÀN QUỐC</strong>
+                    </div>
+                </div>
+                <div class="d-flex item justify-content-center">
+                    <span><i class="fa-solid fa-headphones"></i></span>
+                    <div class="text">
+                        <span>Hotline</span>
+                        <strong>1900.2091</strong>
+                    </div>
+                </div>
+                <div class="d-flex item justify-content-center">
+                    <span><i class="fa-solid fa-arrow-rotate-right"></i></span>
+                    <div class="text">
+                        <span>Thủ tục đổi trả</span>
+                        <strong>DỄ DÀNG</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-center text-center">
+                <img src="../../img/phukien/sub-logo.png" alt="">
+                <div class="text">
+                    <strong>Đăng ký nhận tin</strong>
+                    <span class="d-block">Đăng ký để nhận những chương trình khuyến mại hot nhất của Hoàng Hà
+                        Mobile</span>
+                </div>
+                <div class="input-content w-25">
+                    <input type="text" placeholder="Nhập E-mail của bạn">
+                    <button><i class="fa fa-telegram"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thông tin, địa chỉ -->
+    <footer>
+        <div class="container end-content">
+            <div class="content">
+                <div class="item d-flex">
+                    <div class="item-content nowhite">
+                        <h6>Hỗ trợ - Dịch vụ</h6>
+                        <span>Mua hàng trả góp</span>
+                        <span>Hướng dẫn đặt hàng và thanh toán</span>
+                        <span>Chính sách bảo hành</span>
+                        <span>Câu hỏi thường gặp</span>
+                        <span>Tra cứu đơn hàng</span>
+                        <span>Chính sách baoe mật</span>
+                        <span>Chính sách hủy giao dịch, đổi trả</span>
+                        <span>Chính sách giải quyết khiếu nại</span>
+                        <span>Điều khoản mua bán hàng hóa</span>
+                        <span>Phạm vi, điều khoản gói bảo hành mở rộng</span>
+                    </div>
+                    <div class="item-content nowhite">
+                        <h6>Thông tin liên hệ</h6>
+                        <span>Bán hàng online</span>
+                        <span>Chăm sóc khách hàng</span>
+                        <span>Hỗ trợ kỹ thuật</span>
+                        <span>Hỗ trợ bảo hành và sửa chữa</span>
+                        <span>Liên hệ khối văn phòng</span>
+                    </div>
+                    <div class="item-content nowhite">
+                        <h6>Hệ thống 100 siêu thị trên toàn quốc</h6>
+                        <span>Danh sách 100 siêu thị trên toàn quốc</span>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-phone">
+                            <h6>Tổng đài</h6>
+                            <span class="phone">1900.2091</span>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h6>Thanh toán miễn phí</h6>
+                        <div>
+                            <img src="../../img/footer/logo-visa.png" alt="">
+                            <img src="../../img/footer/logo-master.png" alt="">
+                            <img class="mt-2" src="../../img/footer/logo-jcb.png" alt="">
+                            <img class="mt-2" src="../../img/footer/logo-samsungpay.png" alt="">
+                            <img class="mt-2" src="../../img/footer/logo-atm.png" alt="">
+                            <img class="mt-2" src="../../img/footer/logo-vnpay.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <h6>Hình thức vận chuyển</h6>
+                        <div>
+                            <img src="../../img/footer/nhattin.jpg" alt="">
+                            <img src="../../img/footer/vnpost.jpg" alt="">
+                            <img class="mt-4" src="../../img/footer/logo-bct.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <span>© 2020. CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ. MST: 0106713191. (Đăng ký lần đầu:
+                    Ngày 15 tháng 12 năm 2014, Đăng ký thay đổi ngày 29/12/2020)</span>
+                <span><strong>GP số 426/GP-TTĐT do sở TTTT Hà Nội cấp ngày 22/01/2021</strong></span>
+                <span>Địa chỉ: 26 Phù Đổng Thiên Vương, P. Phạm Đình Hổ, Q. Hai Bà Trưng, Hà Nội. Điện thoại: 1900.2091.
+                    Chịu trách nhiệm nội dung: Hoàng Ngọc Chiến.</span>
+                <span>Designed by: <strong>Kent Lee</strong> @kentlee.design</span>
+            </div>
+        </div>
+    </footer>
+    <script src="../javascript/top_slide.js"></script>
+    <script src="../javascript/hover_phone.js"></script>
+    <script src="../javascript/hover_watch.js"></script>
+    <script src="../javascript/hover_laptop.js"></script>
+    <script src="../javascript/hover_tablet.js"></script>
+    <script src="../javascript/hover_headPhone.js"></script>
+    <script src="../javascript/hover_smartHome.js"></script>
+    <script src="../javascript/hover_accessory.js"></script>
+    <script src="../javascript/hover_playGame.js"></script>
+    <script src="../javascript/hover_mayTroi.js"></script>
+    <script src="../javascript/hover_repair.js"></script>
+    <script src="../javascript/hover_sim.js"></script>
+    <script src="../javascript/hover_flashSale.js"></script>
+    <script src="../javascript/flashSale_hour.js"></script>
+    <script src="../javascript/hover.js"></script>
+    <script src="../javascript/watch.js"></script>
+</body>
+
+</html>
