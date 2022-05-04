@@ -166,12 +166,37 @@ header nav .nav-content .content span i {
 }
 
 .sticky {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     font-size: 10px;
+    max-width: 100%;
+    padding: 0;
+    /* border-radius: 0; */
+}
+.sticky .content {
+    border-radius: 0!important;
+    /* justify-content: space-around!important; */
 }
 
+.sticky .content a {
+    display: flex;
+    flex-direction: row!important;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px!important;
+    margin: 8px 7px 4px !important;
+}
+.sticky .content a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sticky .content a span i {
+    font-size: 15px!important;
+    margin: 0 4px 0 0 !important;
+}
 /* end hover */
 /* end .header */
 
@@ -364,12 +389,18 @@ section .flash-sale .hour strong {
     overflow: hidden;
 }
 
-.box-home-text .item {
+.box-home-text .item h4{
     padding: 5px 60px 6px 35px;
     margin: 0 0 0 60px;
     background: #00483d;
     font-size: 14px;
     font-weight: bold;
+}
+.box-home-text .item::after {
+    content: " ";
+    border-top: 30px solid #00483d;
+    border-left: 30px solid #009981;
+    margin-left: 40px;
 }
 
 .box-home .item {
@@ -564,12 +595,13 @@ section .like .money div strong {
 }
 
 .watch_context .content {
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
 }
 
 .watch_context .item_watch {
     width: 20%;
+    /* display: none; */
 }
 
 .watch_context .item_watch img {
@@ -826,3 +858,36 @@ section .box-home .header:after {
     border-left: 30px solid #009981;
     margin-left: 40px;
 }
+.swiper {
+    /* width: 100%; */
+    height: 100%;
+    padding: 10px 50px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 250px!important;
+    padding: 0!important;
+    /* width: 252px!important; */
+    /* Center slide text vertically */
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; */
+  }
+  .swiper-wrapper {
+    /* padding: 10px 50px!important; */
+    position: relative;
+    padding: 0;
+    /* overflow: hidden; */
+  }
